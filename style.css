@@ -1,0 +1,34 @@
+/* html body {
+  background-color: 	#707070;
+} */
+.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 90% !important;
+  border: #f4f4f4 3px solid !important;
+}
+
+.card-image > img{
+  height: 300px !important;
+}
+
+.section-follow .fa-4x {
+  margin: 5px 10px;
+}
+
+#streetgallery {
+height: 600px;
+background-image: url(j-train.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+#search {
+background-color: black;
+}
+
+
+#follow {
+background-image: url(abstract.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
