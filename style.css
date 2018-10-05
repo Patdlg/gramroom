@@ -1,11 +1,59 @@
-/* html body {
-  background-color: 	#707070;
-} */
+html body {
+  background-color:  #F5F5F5;
+  font-family: 'Gloria Hallelujah';
+}
+
+.valign-wrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2{
+  text-align: center;
+  margin-top: 90px;
+  color: white;
+}
+
+.welcome {
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+
+.welcome:after {
+  content: "";
+  background: url(./img/new.JPG);
+  background-position: center;
+  height: 550px;
+   width: 100%;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+#search{
+  margin-top: 110px;
+}
 .section-search input {
   padding: 5px !important;
   font-size: 18px !important;
   width: 90% !important;
   border: #f4f4f4 3px solid !important;
+
+}
+
+.hello-img {
+  height: 350px;
+  background: url(./img/hello.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+
+
 }
 
 .card-image > img{
@@ -16,12 +64,33 @@
   margin: 5px 10px;
 }
 
-#streetgallery {
-height: 600px;
-background-image: url(j-train.jpg);
-background-repeat: no-repeat;
-background-size: 100%;
+.img-size {
+  background-size: cover;
 }
+
+#streetgallery {
+height: 100%;
+background: url(./img/j-train.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.riri{
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+
+img.materialboxed.responsive-img{
+  border: 1px solid #F5F5F5;
+  height: 230px;
+  width: 200px;
+}
+.col{
+
+}
+
 #search {
 background-color: black;
 }
@@ -31,4 +100,16 @@ background-color: black;
 background-image: url(abstract.jpg);
 background-repeat: no-repeat;
 background-size: cover;
+}
+.card-panel {
+  font-family: 'Gloria Hallelujah',
+}
+
+input.btn {
+  font-family: 'Gloria Hallelujah';
+  background-color: gray;
+}
+
+h4.center{
+  margin-bottom: 30px;
 }

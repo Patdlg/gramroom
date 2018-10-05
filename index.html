@@ -6,6 +6,7 @@
       <!--Import materialize.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB"
         crossorigin="anonymous"></script>
 
@@ -17,36 +18,37 @@
     <body id="home">
 
       <!-- Navbar -->
-      <div class="navbar-fixed">
-        <nav class="grey darken-1">
-          <div class="container">
-            <div class="nav-wrapper">
-              <a href="#" class="brand-logo"><span class="black-text">gram</span>room</a>
-              <a href="#" data-target="mobile-nav"
-              class="sidenav-trigger">
-              <i class="material-icons">menu</i>
-              </a>
-              <ul class="right hide-on-med-and-down">
-                <li>
-                  <a href="#home">Home</a>
-                </li>
-                <li>
-                  <a href="#search">Search</a>
-                </li>
-                <li>
-                  <a href="#popular">Popular</a>
-                </li>
-                <li>
-                  <a href="#gallery">Gallery</a>
-                </li>
-                <li>
-                  <a href="#contact">Contact</a>
-                </li>
-              </ul>
+      <section>
+        <div class="navbar">
+          <nav class="grey darken-2">
+            <div class="container">
+              <div class="nav-wrapper">
+                <a href="#" class="brand-logo">
+                  <span class="black-text">gram</span>room</a>
+                <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                  <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                  <li>
+                    <a href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="#search">Search</a>
+                  </li>
+                  <li>
+                    <a href="#popular">Popular</a>
+                  </li>
+                  <li>
+                    <a href="#gallery">Gallery</a>
+                  </li>
+                  <li>
+                    <a href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-        </nav>
-      </div>
+          </nav>
+        </div>
         <ul class="sidenav" id="mobile-nav">
           <li>
             <a href="#home">Home</a>
@@ -64,101 +66,36 @@
             <a href="#contact">Contact</a>
           </li>
         </ul>
+</section>
 
-        <!-- Section: Slider-->
-        <section class="slider">
-          <ul class="slides">
-            <li>
-              <img class="img-size"src="img/2010.JPG">
-              <!-- random image -->
-              <div class="caption black-text center-align">
-                <h2>Welcome to gramroom</h2>
-                <h5 class="light grey-text text-lighten-3 hide-on-small-only"></h5>
-              </div>
-            </li>
-            <li>
-              <img class="img-size"src="img/paint.JPG">
-              <!-- random image -->
-              <div class="caption left-align">
-                <h2></h2>
-                <h5 class="light grey-text text-lighten-3"></h5>
-              </div>
-            </li>
-            <li>
-              <img class="img-size"src="img/JC.JPG">
-              <!-- random image -->
-              <div class="caption right-align">
-                <h2></h2>
-                <h5 class="light grey-text text-lighten-3"></h5>
-              </div>
-            </li>
-            <li>
-              <img class="img-size"src="img/rihanna.jpg">
-              <!-- random image -->
-              <div class="caption center-align">
-                <h2></h2>
-                <h5 class="light grey-text text-lighten-3"></h5>
-              </div>
-            </li>
-          </ul>
-        </section>
+        <!--Welcome-->
 
-        <!-- search -->
-        <!-- <section id="search" class="section section-search black white-text center scrollspy">
-          <div class="container">
-            <div class='row'>
-              <div class="col s12">
-                <h3>Search</h3>
-                <div class="input-field">
-                  <input type="text" class="white grey-text autocomplete" id="autocomplete-input" placeholder="Contemporary, Graphic Design, etc...">
+        <section class="welcome">
+
+          <div class="valign-wrapper">
+            <h2>Welcome to Gramroom</h2>
+
+          </div>
+          <section id="search" class="section section-search transparent white-text center scrollspy">
+            <div class="container">
+              <div class='row'>
+                <div class="col s12">
+                  <h3>Search</h3>
+                  <div class="input-field">
+                    <input type="text" class="white grey-text autocomplete" id="autocomplete-input" placeholder="Contemporary, Graphic Design, etc...">
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </section> -->
-
-        <!--Icon Boxes-->
-        <section class="section section-icons great lighten-4 center">
-          <div class="container">
-            <div class="row">
-                <div class="col s12 m4">
-                  <div class="card-panel">
-                    <i class="material-icons large black-text">
-                      color_lens
-                    </i>
-                    <h4>Oils</h4>
-                    <p>Hello World</p>
-                  </div>
-                </div>
-                <div class="col s12 m4">
-                  <div class="card-panel">
-                    <i class="material-icons large black-text">
-                       crop_original
-                    </i>
-                    <h4>Graphic Design</h4>
-                    <p>Hello World</p>
-                  </div>
-                </div>
-                <div class="col s12 m4">
-                  <div class="card-panel">
-                    <i class="material-icons large black-text">
-                      edit
-                    </i>
-                    <h4>Sketches</h4>
-                    <p>Hello World</p>
-                  </div>
-                </div>
-
-            </div>
-
-          </div>
+          </section>
         </section>
 
         <!-- Popular Art -->
         <section id="popular" class="sectio section-popular scrollspy">
           <div class="container">
             <div class="row">
-              <h4 class="center"><span class="blue-text">Popular</span> Art</h4>
+              <h4 class="center">
+                <span class="blue-text">Popular</span> Art</h4>
               <div class="col s12 m4">
                 <div class="card">
                   <div class="card-image">
@@ -166,18 +103,18 @@
                     <span class="card-title"></span>
                   </div>
                   <div class="card-content">
-                   Beatles, Graphic Design. June 2018
+                    Beatles, Graphic Design, by Chris de la Guardia June 2018
                   </div>
                 </div>
               </div>
               <div class="col s12 m4">
                 <div class="card">
                   <div class="card-image">
-                    <img src="img/tracy.png" alt="">
+                    <img src="img/jc1.png" alt="">
                     <span class="card-title"></span>
                   </div>
                   <div class="card-content">
-                    Tracy, Graphic Design Oct.2017
+                    Unknown, oil on canvas, by Jose Altamirano Oct.2017
                   </div>
                 </div>
               </div>
@@ -188,7 +125,7 @@
                     <span class="card-title"></span>
                   </div>
                   <div class="card-content">
-                    Royal, Graphic Design. Dec. 2017
+                    Royal, Graphic Design, by Chris de la Guardia Dec. 2017
                   </div>
                 </div>
               </div>
@@ -196,28 +133,8 @@
           </div>
         </section>
 
-        <!--Streetart-->
-          <section id="streetgallery" class="section section-gallery scrollspy">
-            <div class="container">
-              <h4 class="center">
-                <span class="white-text">Street Gallery</span>
-              </h4>
-        <div class="row">
-          <div class="col l4 m3">
-            <img src="img/gramroon1.jpg" alt="" class="materialboxed responsive-img">
-          </div>
-          <div class="col l4 m3">
-            <img src="img/gramrrom2.jpg" alt="" class="materialboxed responsive-img">
-          </div>
-          <div class="col l4 m3">
-            <img src="img/gramroom3.jpg" alt="" class="materialboxed responsive-img">
-          </div>
-          </div>
-        </section>
 
-
-
-<!--RIHANNA-->
+        <!--main-gallery-->
         <section id="gallery" class="section section-gallery scrollspy">
           <div class="container">
             <h4 class="center">
@@ -234,40 +151,135 @@
                 <img src="img/jc3.png" alt="" class="materialboxed responsive-img">
               </div>
               <div class="col s12 m3">
-                <img src="img/beatles.jpg" alt="" class="materialboxed responsive-img">
+                <img src="img/new.JPG" alt="" class="materialboxed responsive-img">
               </div>
+
             </div>
             <div class="row">
+              <div class="col s12 m3">
+                <img src="img/jester.jpg" alt="" class="materialboxed responsive-img">
+              </div>
               <div class="col s12 m3">
                 <img src="img/royal.png" alt="" class="materialboxed responsive-img">
               </div>
               <div class="col s12 m3">
-                <img src="img/litter.jpg" alt="" class="materialboxed responsive-img">
+                <img src="img/jungle.png" alt="" class="materialboxed responsive-img">
               </div>
               <div class="col s12 m3">
                 <img src="img/tracy.png" alt="" class="materialboxed responsive-img">
               </div>
-              <div class="col s12 m3">
-                <img src="img/fifa.jpg" alt="" class="materialboxed responsive-img">
-              </div>
+
             </div>
             <div class="row">
               <div class="col s12 m3">
-                <img src="img/jc1.png" alt="" class="materialboxed responsive-img">
+                <img src="img/fifa.jpg" alt="" class="materialboxed responsive-img">
               </div>
               <div class="col s12 m3">
-                <img src="img/jc2.png" alt="" class="materialboxed responsive-img">
+                <img src="img/jcold2.jpg" alt="" class="materialboxed responsive-img">
               </div>
               <div class="col s12 m3">
-                <img src="img/jc3.png" alt="" class="materialboxed responsive-img">
+                <img src="img/oldy.jpg" alt="" class="materialboxed responsive-img">
               </div>
               <div class="col s12 m3">
-                <img src="img/beatles.jpg" alt="" class="materialboxed responsive-img">
+                <img src="img/old1.jpg" alt="" class="materialboxed responsive-img">
               </div>
             </div>
           </div>
         </section>
+  <!--Streetart-->
+  <section id="streetgallery"class="section section-gallery scrollspy">
+  <div class="container">
+      <h4 class="center">
+        <span class="white-text">Street Gallery</span>
+      </h4>
+      <div class="row">
+        <div class="col s12 m3">
+          <img src="img/gramroon1.jpg" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="img/black.png" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="img/gramroom3.jpg" alt="" class="materialboxed responsive-img">
+        </div>
+      <div class="col s12 m3">
+        <img src="img/rihanna.jpg" alt="" class="materialboxed responsive-img">
+      </div>
+        </div>
 
+        <div class="row">
+        <div class="col s12 m3">
+          <img src="img/morestreet.jpg" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="img/hair.jpg" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="img/str.jpg" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="img/hello.jpg" alt="" class="materialboxed responsive-img">
+        </div>
+
+        </div>
+        <div class="row">
+          <div class="col s12 m3">
+            <img src="img/str1.jpg" alt="" class="materialboxed responsive-img">
+          </div>
+
+        <div class="col s12 m3">
+          <img src="img/street5.jpg" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="img/messy.jpg" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="img/gramrrom2.jpg" alt="" class="materialboxed responsive-img">
+        </div>
+
+      </div>
+  </section>
+        <!--Icon Boxes-->
+        <section class="section section-icons great lighten-4 center">
+          <div class="container">
+            <div class="row">
+            <h4 class="center">
+              <span class="blue-text">Services</h4>
+                <div class="col s12 m4">
+                  <div class="card-panel">
+                    <i class="material-icons large black-text">
+                      color_lens
+                    </i>
+                    <h4>Oils</h4>
+
+                  </div>
+                </div>
+                <div class="col s12 m4">
+                  <div class="card-panel">
+                    <i class="material-icons large black-text">
+                       crop_original
+                    </i>
+                    <h4>Graphic Design</h4>
+
+                  </div>
+                </div>
+                <div class="col s12 m4">
+                  <div class="card-panel">
+                    <i class="material-icons large black-text">
+                      edit
+                    </i>
+                    <h4>Sketches</h4>
+
+                  </div>
+                </div>
+
+            </div>
+
+          </div>
+        </section>
+
+
+<!--
           <section id="follow" class="section section-follow grey darken-2 black-text center">
             <div class="container">
               <div class="row">
@@ -291,7 +303,7 @@
                 </div>
               </div>
             </div>
-          </section>
+          </section> -->
 
         <!--Rihanna-->
         <section class="riri">
@@ -304,39 +316,77 @@
           </div>
         </section>
 
-        <!--Contact Section-->
-        <section id="contact" class="section section-contact scrollspy">
-          <div class="container">
-            <div class="row">
-              <div class="col s12 m6">
-                <div class="card-panel grey white-text center">
-                  <i class="material-icons">
-                    email
-                  </i>
-                  <h5>Contact Us For Booking</h5>
-                </div>
+        <!-- Section: Slider-->
+        <section class="slider">
+          <ul class="slides">
+            <li>
+              <img class="img-size" src="img/2010.JPG">
+              <!-- random image -->
+              <div class="caption black-text center-align">
 
+                <h5 class="light grey-text text-lighten-3 hide-on-small-only"></h5>
               </div>
-              <div class="col s12 m6">
-                <div class="card-panel gret lighten-3">
-                  <h5>Please Fill Out Form</h5>
-                  <div class="input-field">
-                    <input type="text" placeholder="name" >
+            </li>
+
+            <li>
+              <img class="img-size" src="img/paint.JPG">
+              <!-- random image -->
+              <div class="caption right-align">
+                <h2></h2>
+                <h5 class="light grey-text text-lighten-3"></h5>
+              </div>
+            </li>
+            <li>
+              <img class="img-size" src="img/crib2.JPG">
+              <!-- random image -->
+              <div class="caption right-align">
+                <h2></h2>
+                <h5 class="light grey-text text-lighten-3"></h5>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+
+        <!--Contact Section-->
+          <section id="contact" class="section section-contact scrollspy">
+            <div class="container">
+              <div class="row">
+                <div class="col s12 m6">
+                  <div class="card-panel grey darken-3 white-text center">
+                    <i class="material-icons medium">email</i>
+                    <h5>Contact Us For Booking</h5>
 
                   </div>
+                  <ul class="collection with-header">
+                    <li class="collection-header">
+                      <h4>Location</h4>
+                    </li>
+                    <li class="collection-item">Wayne Manor</li>
+                    <li class="collection-item">1007 Mountain Drive</li>
+                    <li class="collection-item">Gotham City, United States</li>
+                  </ul>
+                </div>
+                <div class="col s12 m6">
+                  <div class="card-panel grey lighten-3">
+                    <h5>Please fill out this form</h5>
                     <div class="input-field">
-                      <input type="text" placeholder="email">
-
+                      <input type="text" placeholder="Name" id="name">
+                      <label for="name">Name</label>
                     </div>
-                      <div class="input-field">
-                        <input type="text" placeholder="phone">
-
-                      </div>
-                         <div class="input-field">
-                    <textarea class="materialize-textarea" placeholder="enter message" ></textarea>
-
-                  </div>
-                  <input type="submit" value="Submit" class="btn">
+                    <div class="input-field">
+                      <input type="email" placeholder="Email" id="email">
+                      <label for="email">Email</label>
+                    </div>
+                    <div class="input-field">
+                      <input type="text" placeholder="Phone" id="phone">
+                      <label for="phone">Phone</label>
+                    </div>
+                    <div class="input-field">
+                      <textarea class="materialize-textarea" placeholder="Enter Message" id="message"></textarea>
+                      <label for="message">Message</label>
+                    </div>
+                    <input type="submit" value="Submit" class="btn">
                 </div>
               </div>
             </div>
